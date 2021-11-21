@@ -1,0 +1,318 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=216;
+	taxlabels
+	ANT_AT_BONS_200812_003
+	ANT_AT_BONS_200812_010
+	ANT_AT_BONS_200812_012
+	ANT_AT_BONS_200812_013
+	ANT_AT_BOOM_202007_001
+	ANT_AT_BOOM_202007_002
+	ANT_AT_BOOM_202007_003
+	ANT_AT_BOOM_202007_004
+	ANT_AT_BOOM_202007_005
+	ANT_AT_CAPC_201611_001_R
+	ANT_AT_CAPC_201611_002_R
+	ANT_AT_CAPC_201611_005
+	ANT_AT_CAPC_201611_006
+	ANT_AT_CAPC_201611_007
+	ANT_AT_CODR_201912_002
+	ANT_AT_CODR_201912_003
+	ANT_AT_CODR_201912_004
+	ANT_AT_CODR_201912_006
+	ANT_AT_GORE_202011_A01
+	ANT_AT_GORE_202011_A02
+	ANT_AT_GORE_202011_P01
+	ANT_AT_GORE_202011_P02
+	ANT_AT_GORE_202011_P03
+	ANT_AT_GORE_202011_P04
+	ANT_AT_KAIK_201611_101
+	ANT_AT_KAIK_201611_102
+	ANT_AT_KAIK_201611_103
+	ANT_AT_KAIK_201611_104
+	ANT_AT_KAIK_201611_105
+	ANT_AT_KAIK_201611_106_R
+	ANT_AT_KAIK_201611_108
+	ANT_AT_KAIK_201611_201
+	ANT_AT_KAIK_201611_202
+	ANT_AT_KAIK_201611_203
+	ANT_AT_KAIK_201611_204
+	ANT_AT_KAIK_201611_205
+	ANT_AT_KAIK_201611_206
+	ANT_AT_KAIK_201611_208
+	ANT_AT_KAIK_201611_209
+	ANT_AT_KAIK_201611_210
+	ANT_AT_KAIK_201611_212
+	ANT_AT_NAPE_202011_001
+	ANT_AT_NAPE_202011_002
+	ANT_AT_NAPE_202011_003
+	ANT_AT_NAPE_202011_004
+	ANT_AT_NAPE_202011_005
+	ANT_AT_OARO_202011_A01
+	ANT_AT_OARO_202011_A02
+	ANT_AT_OARO_202011_P01
+	ANT_AT_OARO_202011_P02
+	ANT_AT_OARO_202011_P03
+	ANT_AT_OARO_202011_P04
+	ANT_AT_OKAB_200903_001
+	ANT_AT_OKAB_200903_002
+	ANT_AT_OKAB_200903_003
+	ANT_AT_ORON_201912_001
+	ANT_AT_ORON_201912_004
+	ANT_AT_ORON_201912_006
+	ANT_AT_ORON_201912_007
+	ANT_AT_ORON_201912_008
+	ANT_AT_PERA_200903_003
+	ANT_AT_RAKN_201611_001
+	ANT_AT_RAKN_201611_002
+	ANT_AT_RAKS_201611_001
+	ANT_AT_RAKS_201611_002
+	ANT_AT_RARA_200703_001
+	ANT_AT_RARA_200703_002_R
+	ANT_AT_RNGI_202011_1A0
+	ANT_AT_RNGI_202011_1B0
+	ANT_AT_RNGI_202011_1D0
+	ANT_AT_RNGI_202011_2A0
+	ANT_AT_RNGI_202011_2C0
+	ANT_AT_RNGI_202011_2E0
+	ANT_AT_RNGI_202011_3A0
+	ANT_AT_RNGI_202011_3B0
+	ANT_AT_RNGI_202011_4A0
+	ANT_AT_WAIN_201611_001[&!color=#000000]
+	ANT_AT_WAIN_201611_002
+	ANT_AT_WAIN_201611_003
+	ANT_AT_WAIN_201611_004
+	ANT_AT_WAIN_201611_005
+	ANT_AT_WAIN_201611_006
+	ANT_AT_WAIN_201611_007
+	ANT_AT_WAIN_201611_008
+	ANT_AT_WAIN_201611_009
+	ANT_AT_WAIN_201611_010
+	ANT_AT_WAIN_201611_011
+	ANT_AT_WAIS_201611_002
+	ANT_AT_WAIS_201611_003
+	ANT_AT_WAIS_201611_004
+	ANT_AT_WAIS_201611_005
+	ANT_AT_WAIS_201611_006
+	ANT_AT_WAIS_201611_007
+	ANT_AT_WAIS_201611_008
+	ANT_AT_WAIS_201611_009
+	ANT_AT_WAIS_201611_010
+	ANT_AT_WAIS_201611_011
+	ANT_AT_WARN_201611_001[&!color=#000000]
+	ANT_AT_WARN_201611_002[&!color=#000000]
+	ANT_AT_WARN_201611_003[&!color=#000000]
+	ANT_AT_WARN_201611_004
+	ANT_AT_WARN_201611_107[&!color=#000000]
+	ANT_AT_WARN_201611_108[&!color=#000000]
+	ANT_AT_WARN_201611_109[&!color=#000000]
+	ANT_AT_WARN_201611_110[&!color=#000000]
+	ANT_AT_WARS_201611_006[&!color=#000000]
+	ANT_AT_WARS_201611_007[&!color=#000000]
+	ANT_AT_WARS_201611_008[&!color=#000000]
+	ANT_AT_WARS_201611_009
+	ANT_AT_WARS_201611_010[&!color=#000000]
+	ANT_AT_WARS_201611_011[&!color=#000000]
+	ANT_AT_WARS_201611_012[&!color=#000000]
+	ANT_AT_WARS_201611_013
+	ANT_AT_WARS_201611_015
+	ANT_AT_WHRN_201611_003
+	ANT_AT_WHRN_201611_004
+	ANT_AT_WHRN_201611_006
+	ANT_AT_WHRN_201611_008
+	ANT_AT_WHRN_201611_010
+	ANT_AT_WHRN_201611_011
+	ANT_AT_WHRN_201611_012
+	ANT_AT_WHRN_201611_013
+	ANT_AT_WHRN_201611_014
+	ANT_AT_WHRN_201611_016
+	ANT_NR_CAPC_202011_1A1
+	ANT_NR_CAPC_202011_1A2
+	ANT_NR_CAPC_202011_1A4
+	ANT_NR_CAPC_202011_1A5
+	ANT_NR_CAPC_202011_1A6
+	ANT_NR_CAPC_202011_1J3
+	ANT_NR_CAPC_202011_1J5
+	ANT_NR_CAPC_202011_1J6
+	ANT_NR_KAIK_201704_002
+	ANT_NR_KAIP_202011_0A1
+	ANT_NR_KAIP_202011_0A2
+	ANT_NR_KAIP_202011_0A3
+	ANT_NR_KAIP_202011_0A4
+	ANT_NR_KAIP_202011_0A5
+	ANT_NR_KAIP_202011_0A7
+	ANT_NR_KAIP_202011_0A8
+	ANT_NR_KAIP_202011_0A9
+	ANT_NR_KAIP_202011_0J1
+	ANT_NR_KAIP_202011_0J3
+	ANT_NR_KAIP_202011_0J4
+	ANT_NR_KAIP_202011_0J5
+	ANT_NR_KAIP_202011_0J6
+	ANT_NR_KAIP_202011_A11
+	ANT_NR_KAIP_202011_A12
+	ANT_NR_WAIB_202011_0A2
+	ANT_NR_WAIB_202011_0A5
+	ANT_NR_WAIB_202011_0A6
+	ANT_NR_WAIB_202011_0J1
+	ANT_NR_WAIB_202011_0J4
+	ANT_NR_WAIB_202011_0J5
+	ANT_NR_WAIN_202011_201
+	ANT_NR_WAIN_202011_202
+	ANT_NR_WAIN_202011_203
+	ANT_NR_WAIP_201809_001
+	ANT_NR_WAIP_201809_002
+	ANT_NR_WAIP_201809_003
+	ANT_NR_WAIP_201809_004
+	ANT_NR_WAIP_201809_006
+	ANT_NR_WAIP_201809_007
+	ANT_NR_WAIP_201809_008
+	ANT_NR_WAIP_201809_K01
+	ANT_NR_WAIP_201809_K02
+	ANT_NR_WAIP_201809_K03
+	ANT_NR_WAIP_201809_K05
+	ANT_NR_WAIP_201809_K06
+	ANT_NR_WAIP_201809_K07
+	ANT_NR_WAIP_201809_K08
+	ANT_NR_WAIS_202011_0A1
+	ANT_NR_WAIS_202011_0A2
+	ANT_NR_WAIS_202011_0A3
+	ANT_NR_WAIS_202011_0J1
+	ANT_NR_WAIS_202011_0J2
+	ANT_NR_WAIS_202011_0J3
+	ANT_NR_WARD_201800_001[&!color=#000000]
+	ANT_NR_WARD_201800_002[&!color=#000000]
+	ANT_NR_WARD_201800_003[&!color=#000000]
+	ANT_NR_WARD_201800_004[&!color=#000000]
+	ANT_NR_WARD_201800_005[&!color=#000000]
+	ANT_NR_WARD_201800_P01[&!color=#000000]
+	ANT_NR_WARD_201800_P02[&!color=#000000]
+	ANT_NR_WARD_201800_P03[&!color=#000000]
+	ANT_NR_WARD_201800_P04[&!color=#000000]
+	ANT_NR_WARD_201800_P05[&!color=#000000]
+	ANT_NR_WARD_201909_001[&!color=#000000]
+	ANT_NR_WARD_201909_003[&!color=#000000]
+	ANT_NR_WARD_201909_004[&!color=#000000]
+	ANT_NR_WARD_202011_0A7[&!color=#000000]
+	ANT_NR_WARD_202011_0A8[&!color=#000000]
+	ANT_NR_WARD_202011_0J1[&!color=#000000]
+	ANT_NR_WARD_202011_0J2[&!color=#000000]
+	ANT_NR_WARD_202011_0J3[&!color=#000000]
+	ANT_NR_WARN_201900_005
+	ANT_NR_WARN_201900_006[&!color=#000000]
+	ANT_NR_WARN_201900_007[&!color=#000000]
+	ANT_NR_WHAR_201800_001
+	ANT_NR_WHAR_201800_002
+	ANT_NR_WHAR_201800_003
+	ANT_NR_WHAR_201800_004
+	ANT_NR_WHAR_201800_005
+	ANT_NR_WHAR_201800_P01
+	ANT_NR_WHAR_201800_P02
+	ANT_NR_WHAR_201800_P03
+	ANT_NR_WHAR_201800_P04
+	ANT_NR_WHAR_201800_P05
+	ANT_NR_WHAR_201900_001
+	ANT_NR_WHAR_201900_003
+	ANT_NR_WHAR_201900_005
+	ANT_NR_WHRN_202011_201
+	ANT_NR_WHRN_202011_202
+	ANT_NR_WHRN_202011_203
+	ANT_NR_WHRN_202011_204
+	ANT_NR_WHRN_202011_205
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (ANT_AT_BOOM_202007_001[&!color=#00c5cd]:0.004244,((ANT_AT_BOOM_202007_002[&!color=#00c5cd]:6.49E-4,ANT_AT_BOOM_202007_003[&!color=#00c5cd]:0.030387)[&label=99,!color=#00c5cd]:0.008692,(ANT_AT_BOOM_202007_005[&!color=#00c5cd]:0.028473,((((((ANT_AT_ORON_201912_001[&!color=#00c5cd]:0.020701,ANT_AT_ORON_201912_007[&!color=#00c5cd]:0.011515)[&label=93,!color=#00c5cd]:0.005567,ANT_AT_ORON_201912_008[&!color=#00c5cd]:0.016649)[&label=99,!color=#00c5cd]:0.009487,ANT_AT_ORON_201912_004[&!color=#00c5cd]:0.024105)[&label=100,!color=#00c5cd]:0.00969,ANT_AT_ORON_201912_006[&!color=#00c5cd]:0.016598)[&label=100,!color=#00c5cd]:0.091436,(((((((ANT_AT_RNGI_202011_1A0[&!color=#00f5ff]:0.025199,(ANT_AT_RNGI_202011_2E0[&!color=#00f5ff]:0.015499,ANT_AT_RNGI_202011_3A0[&!color=#00f5ff]:0.020607)[&label=94,!color=#00f5ff]:0.008203)[&label=85,!color=#00f5ff]:0.007478,(ANT_AT_RNGI_202011_1B0[&!color=#00f5ff]:0.018376,ANT_AT_RNGI_202011_2A0[&!color=#00f5ff]:0.017293)[&label=57,!color=#00f5ff]:0.008783)[&label=48,!color=#00f5ff]:0.0062,(ANT_AT_RNGI_202011_1D0[&!color=#00f5ff]:0.01447,ANT_AT_RNGI_202011_4A0[&!color=#00f5ff]:0.014175)[&label=48,!color=#00f5ff]:0.006458)[&label=58,!color=#00f5ff]:0.007735,ANT_AT_RNGI_202011_3B0[&!color=#00f5ff]:0.019293)[&label=94,!color=#00f5ff]:0.01041,ANT_AT_RNGI_202011_2C0[&!color=#00f5ff]:0.011952)[&label=100,!color=#00f5ff]:0.086069,((((ANT_AT_BONS_200812_003[&!color=#666666]:0.013171,ANT_AT_BONS_200812_010[&!color=#666666]:0.014459)[&label=100,!color=#666666]:0.009992,ANT_AT_BONS_200812_013[&!color=#666666]:0.015837)[&label=100,!color=#666666]:0.009527,ANT_AT_BONS_200812_012[&!color=#666666]:0.017247)[&label=100,!color=#666666]:0.016075,(ANT_AT_PERA_200903_003[&!color=#666666]:0.013213,((ANT_AT_OKAB_200903_001[&!color=#666666]:0.014279,ANT_AT_OKAB_200903_002[&!color=#666666]:0.010279)[&label=100,!color=#666666]:0.011311,ANT_AT_OKAB_200903_003[&!color=#666666]:0.010527)[&label=100,!color=#666666]:0.011833)[&label=100,!color=#666666]:0.022213)[&label=100,!color=#666666]:0.065818)[&label=100]:0.074742,((((((((((((((((ANT_AT_CAPC_201611_001_R[&!color=#76ee00]:0.023081,ANT_NR_CAPC_202011_1A6[&!color=#458b00]:0.033103)[&label=82,!color=#76ee00]:0.005943,ANT_NR_CAPC_202011_1A4[&!color=#458b00]:0.031441)[&label=86,!color=#76ee00]:0.011706,ANT_AT_CAPC_201611_002_R[&!color=#76ee00]:0.030003)[&label=86,!color=#76ee00]:0.007849,ANT_AT_CAPC_201611_006[&!color=#76ee00]:0.024745)[&label=83,!color=#76ee00]:0.009762,((ANT_AT_CAPC_201611_007[&!color=#76ee00]:0.021238,ANT_NR_CAPC_202011_1J6[&!color=#458b00]:0.027321)[&label=86,!color=#76ee00]:0.008495,ANT_NR_CAPC_202011_1A5[&!color=#458b00]:0.025574)[&label=98,!color=#76ee00]:0.013809)[&label=82,!color=#76ee00]:0.015481,(ANT_AT_CAPC_201611_005[&!color=#76ee00]:0.030163,(ANT_NR_CAPC_202011_1A1[&!color=#458b00]:0.011373,ANT_NR_CAPC_202011_1J3[&!color=#458b00]:0.018784)[&label=100,!color=#458b00]:0.028353)[&label=91,!color=#76ee00]:0.011497)[&label=83,!color=#76ee00]:0.010599,ANT_NR_CAPC_202011_1J5[&!color=#458b00]:0.03226)[&label=77,!color=#76ee00]:0.009902,ANT_NR_CAPC_202011_1A2[&!color=#76ee00]:0.032468)[&label=100,!color=#76ee00]:0.026314,ANT_NR_WARD_201909_004[&!color=#104e8b]:0.031939)[&label=33,!color=#1e90ff]:0.0105,(ANT_AT_WARS_201611_011[&!color=#1e90ff]:0.037762,ANT_AT_WAIN_201611_001[&!color=#9b30ff]:0.033037)[&label=34,!color=#1e90ff]:0.014933)[&label=81,!color=#1e90ff]:0.008819,((((ANT_AT_WARN_201611_001[&!color=#1e90ff]:0.025251,ANT_NR_WARD_201909_003[&!color=#104e8b]:0.03459)[&label=88,!color=#6699ff]:0.007719,(((ANT_AT_WARN_201611_107[&!color=#1e90ff]:0.025017,ANT_AT_WARS_201611_008[&!color=#1e90ff]:0.033608)[&label=99,!color=#1e90ff]:0.012704,ANT_AT_WARS_201611_007[&!color=#1e90ff]:0.041539)[&label=88,!color=#1e90ff]:0.011003,((((ANT_AT_WARN_201611_109[&!color=#1e90ff]:0.03267,ANT_NR_WARD_201800_005[&!color=#104e8b]:0.021664)[&label=100,!color=#1e90ff]:0.012679,ANT_NR_WARD_202011_0A8[&!color=#104e8b]:0.033386)[&label=98,!color=#1e90ff]:0.013175,((ANT_NR_WARD_201800_002[&!color=#104e8b]:4.53E-4,ANT_NR_WARN_201900_006[&!color=#104e8b]:9.36E-4)[&label=100,!color=#104e8b]:0.025336,ANT_NR_WARD_201800_P02[&!color=#104e8b]:0.026406)[&label=100,!color=#104e8b]:0.016509)[&label=93,!color=#1e90ff]:0.009837,(ANT_NR_WARD_202011_0A7[&!color=#104e8b]:0.026988,ANT_NR_WARD_202011_0J3[&!color=#104e8b]:0.027368)[&label=92,!color=#104e8b]:0.014796)[&label=91,!color=#1e90ff]:0.011843)[&label=90,!color=#1e90ff]:0.010227)[&label=81,!color=#1e90ff]:0.005573,(((ANT_AT_WARN_201611_002[&!color=#1e90ff]:0.040762,((ANT_AT_WARN_201611_003[&!color=#1e90ff]:0.023136,ANT_AT_WARS_201611_010[&!color=#1e90ff]:0.025048)[&label=98,!color=#1e90ff]:0.012906,ANT_NR_WARD_201909_001[&!color=#104e8b]:0.042624)[&label=87,!color=#1e90ff]:0.009721)[&label=68,!color=#1e90ff]:0.011252,((ANT_NR_WARD_201800_003[&!color=#104e8b]:6.35E-4,ANT_NR_WARN_201900_007[&!color=#104e8b]:9.3E-4)[&label=100,!color=#104e8b]:0.033446,ANT_NR_WARD_201800_P04[&!color=#104e8b]:0.027384)[&label=52,!color=#104e8b]:0.008167)[&label=36,!color=#1e90ff]:0.007374,(ANT_AT_WARN_201611_110[&!color=#1e90ff]:0.040148,(ANT_AT_WARS_201611_012[&!color=#1e90ff]:0.036052,ANT_NR_WARD_202011_0J2[&!color=#104e8b]:0.024616)[&label=100,!color=#1e90ff]:0.013973)[&label=59,!color=#1e90ff]:0.015212)[&label=97,!color=#1e90ff]:0.016414)[&label=95,!color=#1e90ff]:0.009649,((ANT_AT_WARN_201611_108[&!color=#1e90ff]:0.024206,ANT_NR_KAIK_201704_002[&!color=#daa520]:0.041214)[&label=99,!color=#1e90ff]:0.015843,(ANT_AT_WARS_201611_006[&!color=#6699ff]:0.034568,(ANT_NR_WARD_201800_P05[&!color=#104e8b]:0.028307,ANT_NR_WARD_202011_0J1[&!color=#104e8b]:0.02267)[&label=97,!color=#104e8b]:0.012772)[&label=70,!color=#6699ff]:0.010807)[&label=85,!color=#1e90ff]:0.010437)[&label=68,!color=#1e90ff]:0.007095)[&label=69,!color=#1e90ff]:0.008523,ANT_NR_WARD_201800_004[&!color=#104e8b]:0.028343)[&label=92,!color=#6699ff]:0.009237,(ANT_NR_WARD_201800_001[&!color=#104e8b]:0.029783,ANT_NR_WARD_201800_P03[&!color=#104e8b]:0.02501)[&label=99,!color=#104e8b]:0.014538)[&label=98,!color=#6699ff]:0.01574,ANT_NR_WARD_201800_P01[&!color=#104e8b]:0.031719)[&label=100,!color=#1e90ff]:0.092303,((((ANT_AT_WARN_201611_004[&!color=#1e90ff]:0.036775,((ANT_AT_KAIK_201611_103[&!color=#ffd700]:0.029714,ANT_AT_RAKN_201611_002[&!color=#cccccc]:0.02075)[&label=100,!color=#cccccc]:0.010502,ANT_AT_RAKN_201611_001[&!color=#cccccc]:0.055943)[&label=99,!color=#cccccc]:0.011238)[&label=100,!color=#cccccc]:0.01848,ANT_AT_RAKS_201611_002[&!color=#cccccc]:0.021083)[&label=99,!color=#cccccc]:0.01518,(((((((ANT_AT_KAIK_201611_101[&!color=#ffd700]:0.016886,(ANT_AT_NAPE_202011_001[&!color=#999999]:2.79E-4,ANT_AT_NAPE_202011_002[&!color=#999999]:4.0E-6)[&label=100,!color=#999999]:0.022536)[&label=55,!color=#999999]:0.008533,ANT_AT_NAPE_202011_004[&!color=#999999]:0.021744)[&label=55,!color=#999999]:0.007304,(ANT_AT_NAPE_202011_003[&!color=#999999]:0.022666,ANT_AT_NAPE_202011_005[&!color=#999999]:0.019037)[&label=90,!color=#999999]:0.013144)[&label=72,!color=#999999]:0.011723,ANT_AT_KAIK_201611_206[&!color=#ffd700]:0.022395)[&label=100,!color=#999999]:0.031212,((((ANT_AT_GORE_202011_A01[&!color=#999999]:0.016717,ANT_AT_GORE_202011_A02[&!color=#999999]:0.029056)[&label=38,!color=#999999]:0.008437,ANT_AT_GORE_202011_P04[&!color=#999999]:0.019836)[&label=24,!color=#999999]:0.01015,(ANT_AT_GORE_202011_P01[&!color=#999999]:0.020967,ANT_AT_GORE_202011_P02[&!color=#999999]:0.025558)[&label=43,!color=#999999]:0.011418)[&label=36,!color=#999999]:0.007692,ANT_AT_GORE_202011_P03[&!color=#999999]:0.018063)[&label=100,!color=#999999]:0.034747)[&label=100,!color=#999999]:0.047651,ANT_AT_KAIK_201611_104[&!color=#ffd700]:0.039968)[&label=100,!rotate=true]:0.022961,((ANT_AT_RARA_200703_001[&!color=#cccccc]:0.038342,ANT_AT_RARA_200703_002_R[&!color=#cccccc]:0.036397)[&label=99,!color=#cccccc]:0.018837,(((ANT_AT_OARO_202011_A01[&!color=#cccccc]:0.029985,(ANT_AT_OARO_202011_P02[&!color=#cccccc]:4.0E-6,ANT_AT_OARO_202011_P03[&!color=#cccccc]:3.0E-6)[&label=100,!color=#cccccc]:0.030139)[&label=96,!color=#cccccc]:0.012905,(ANT_AT_OARO_202011_A02[&!color=#cccccc]:0.028521,ANT_AT_OARO_202011_P04[&!color=#cccccc]:0.026629)[&label=86,!color=#cccccc]:0.011088)[&label=92,!color=#cccccc]:0.011803,ANT_AT_OARO_202011_P01[&!color=#cccccc]:0.036482)[&label=96,!color=#cccccc]:0.02134)[&label=86,!color=#cccccc]:0.011269)[&label=42,!rotate=true]:0.008125)[&label=100,!rotate=false]:0.057554,((ANT_AT_WARS_201611_015[&!color=#1e90ff]:0.044264,(ANT_AT_KAIK_201611_205[&!color=#ffd700]:0.03709,ANT_NR_KAIP_202011_0A4[&!color=#daa520]:0.041559)[&label=94,!color=#ffd700]:0.008247)[&label=39,!color=#ffd700]:0.007908,((((ANT_NR_WAIP_201809_007[&!color=#daa520]:0.035521,((ANT_AT_KAIK_201611_202[&!color=#ffd700]:0.040521,ANT_NR_KAIP_202011_A11[&!color=#daa520]:0.040768)[&label=96,!color=#ffd700]:0.012816,((ANT_AT_KAIK_201611_212[&!color=#ffd700]:0.036571,ANT_NR_KAIP_202011_0J4[&!color=#daa520]:0.034731)[&label=96,!color=#ffd700]:0.012217,ANT_NR_KAIP_202011_0A1[&!color=#daa520]:0.037933)[&label=44,!color=#ffd700]:0.009995)[&label=79,!color=#ffd700]:0.005171)[&label=51,!color=#ffd700]:0.009546,((((ANT_AT_KAIK_201611_108[&!color=#ffd700]:0.041824,ANT_NR_KAIP_202011_0A8[&!color=#daa520]:0.039204)[&label=88,!color=#ffd700]:0.009121,((ANT_AT_KAIK_201611_204[&!color=#ffd700]:0.048353,ANT_NR_KAIP_202011_0A2[&!color=#daa520]:0.041531)[&label=96,!color=#ffd700]:0.017567,ANT_NR_KAIP_202011_0J5[&!color=#daa520]:0.0322)[&label=94,!color=#ffd700]:0.008732)[&label=100,!color=#ffd700]:0.011198,(ANT_NR_KAIP_202011_0A7[&!color=#daa520]:0.042869,ANT_NR_KAIP_202011_0A9[&!color=#daa520]:0.034419)[&label=100,!color=#daa520]:0.012805)[&label=100,!color=#ffd700]:0.011562,(ANT_AT_KAIK_201611_209[&!color=#ffd700]:0.032722,ANT_NR_KAIP_202011_0A5[&!color=#daa520]:0.037384)[&label=100,!color=#ffd700]:0.011809)[&label=99,!color=#ffd700]:0.013731)[&label=49,!color=#ffd700]:0.006471,((((ANT_AT_KAIK_201611_201[&!color=#ffd700]:0.038582,ANT_NR_KAIP_202011_0A3[&!color=#daa520]:0.041544)[&label=99,!color=#ffd700]:0.012026,ANT_AT_KAIK_201611_203[&!color=#ffd700]:0.039889)[&label=86,!color=#ffd700]:0.010783,ANT_NR_KAIP_202011_0J1[&!color=#daa520]:0.037151)[&label=89,!color=#ffd700]:0.010766,((ANT_AT_KAIK_201611_208[&!color=#ffd700]:0.038417,ANT_NR_KAIP_202011_A12[&!color=#daa520]:0.043626)[&label=90,!color=#ffd700]:0.012506,ANT_NR_KAIP_202011_0J6[&!color=#daa520]:0.037871)[&label=82,!color=#ffd700]:0.013947)[&label=46,!color=#ffd700]:0.013585)[&label=38,!color=#ffd700]:0.009271,(ANT_AT_KAIK_201611_105[&!color=#ffd700]:0.028551,((ANT_AT_KAIK_201611_106_R[&!color=#ffd700]:0.032067,ANT_NR_KAIP_202011_0J3[&!color=#daa520]:0.037758)[&label=34,!color=#ffd700]:0.005802,ANT_AT_KAIK_201611_210[&!color=#ffd700]:0.04009)[&label=86,!color=#ffd700]:0.007944)[&label=98,!color=#ffd700]:0.013017)[&label=24,!color=#ffd700]:0.009539)[&label=100,!color=#ffd700]:0.023274)[&label=96,!rotate=true]:0.01219)[&label=93]:0.013258,(((((((((((((((ANT_AT_WARS_201611_009[&!color=#ff0000]:3.93E-4,ANT_NR_WHAR_201800_002[&!color=#cd0000]:3.19E-4)[&label=100,!color=#ff0000]:0.020098,ANT_AT_WHRN_201611_013[&!color=#ff0000]:0.027388)[&label=68,!color=#ff0000]:0.005201,(ANT_AT_WHRN_201611_004[&!color=#ff0000]:0.043213,((ANT_NR_WHAR_201800_P01[&!color=#cd0000]:3.0E-6,ANT_NR_WHAR_201800_005[&!color=#ff0000]:2.96E-4)[&label=100,!color=#cd0000]:3.84E-4,ANT_NR_WHAR_201900_005[&!color=#cd0000]:2.04E-4)[&label=100,!color=#cd0000]:0.027859)[&label=78,!color=#ff0000]:0.010283)[&label=89,!color=#ff0000]:0.013754,(((((ANT_NR_WARN_201900_005[&!color=#cd0000]:1.64E-4,ANT_NR_WHAR_201800_P02[&!color=#cd0000]:8.21E-4)[&label=100,!color=#cd0000]:0.032475,(ANT_AT_WHRN_201611_006[&!color=#ff0000]:0.031011,ANT_AT_WHRN_201611_008[&!color=#ff0000]:0.018437)[&label=100,!color=#ff0000]:0.018671)[&label=70,!color=#ff0000]:0.006618,ANT_AT_WHRN_201611_012[&!color=#ff0000]:0.028252)[&label=64,!color=#ff0000]:0.012622,(((((ANT_AT_WHRN_201611_003[&!color=#ff0000]:0.027991,(ANT_NR_WHAR_201800_003[&!color=#cd0000]:3.0E-6,ANT_NR_WHAR_201900_003[&!color=#cd0000]:6.24E-4)[&label=100,!color=#cd0000]:0.027995)[&label=80,!color=#ff0000]:0.006627,ANT_AT_WHRN_201611_010[&!color=#ff0000]:0.020817)[&label=33,!color=#ff0000]:0.005265,(ANT_NR_WHAR_201800_P03[&!color=#cd0000]:0.03526,(ANT_NR_WHAR_201800_P05[&!color=#cd0000]:0.014148,(ANT_NR_WHAR_201800_001[&!color=#cd0000]:4.07E-4,ANT_NR_WHAR_201900_001[&!color=#cd0000]:3.0E-6)[&label=100,!color=#cd0000]:0.014174)[&label=98,!color=#cd0000]:0.017028)[&label=46,!color=#cd0000]:0.012298)[&label=37,!color=#ff0000]:0.007633,ANT_NR_WHRN_202011_205[&!color=#cd0000]:0.030562)[&label=76,!color=#ff0000]:0.009742,ANT_AT_WHRN_201611_011[&!color=#ff0000]:0.02775)[&label=92,!color=#ff0000]:0.008972)[&label=40,!color=#ff0000]:0.008492,(ANT_NR_WHAR_201800_004[&!color=#cd0000]:0.025554,((ANT_NR_WHRN_202011_202[&!color=#cd0000]:2.64E-4,ANT_NR_WHRN_202011_203[&!color=#cd0000]:3.0E-6)[&label=100,!color=#cd0000]:0.005245,ANT_NR_WHRN_202011_204[&!color=#cd0000]:0.013849)[&label=100,!color=#cd0000]:0.028569)[&label=34,!color=#ff0000]:0.007435)[&label=49,!color=#ff0000]:0.005595)[&label=82,!color=#ff0000]:0.008262,(ANT_AT_WHRN_201611_016[&!color=#ff0000]:0.026945,(ANT_NR_WHAR_201800_P04[&!color=#cd0000]:0.024897,ANT_NR_WHRN_202011_201[&!color=#cd0000]:0.022061)[&label=99,!color=#cd0000]:0.011299)[&label=73,!color=#ff0000]:0.007998)[&label=92,!color=#ff0000]:0.007966,ANT_AT_WHRN_201611_014[&!color=#ff0000]:0.02865)[&label=100,!color=#ff0000]:0.052837,ANT_NR_WAIB_202011_0A2[&!color=#551a8b]:0.031065)[&label=15,!color=#9b30ff]:0.010924,((ANT_NR_WAIB_202011_0J4[&!color=#551a8b]:0.028227,ANT_NR_WAIN_202011_203[&!color=#551a8b]:0.023029)[&label=93,!color=#551a8b]:0.011785,ANT_NR_WAIN_202011_201[&!color=#551a8b]:0.031055)[&label=16,!color=#551a8b]:0.005767)[&label=16,!color=#9b30ff]:0.006383,(((((ANT_AT_WARS_201611_013[&!color=#9b30ff]:0.00131,ANT_NR_WAIP_201809_K05[&!color=#551a8b]:0.001296)[&label=100,!color=#9b30ff]:0.019946,ANT_AT_WAIN_201611_011[&!color=#9b30ff]:0.036896)[&label=91,!color=#9b30ff]:0.015333,(ANT_AT_WAIS_201611_011[&!color=#9b30ff]:0.030889,ANT_NR_WAIB_202011_0A5[&!color=#551a8b]:0.029853)[&label=86,!color=#9b30ff]:0.005844)[&label=79,!color=#9b30ff]:0.010476,((ANT_AT_WAIN_201611_007[&!color=#9b30ff]:0.029994,(ANT_NR_WAIB_202011_0J1[&!color=#551a8b]:0.027519,ANT_NR_WAIS_202011_0A1[&!color=#551a8b]:0.024118)[&label=96,!color=#551a8b]:0.010129)[&label=78,!color=#9b30ff]:0.008671,(((ANT_NR_WAIP_201809_008[&!color=#551a8b]:0.002487,ANT_NR_WAIP_201809_K08[&!color=#551a8b]:0.001003)[&label=100,!color=#551a8b]:0.027143,ANT_NR_WAIS_202011_0J2[&!color=#551a8b]:0.030743)[&label=46,!color=#551a8b]:0.005549,(ANT_NR_WAIS_202011_0A2[&!color=#551a8b]:0.033659,ANT_NR_WAIS_202011_0A3[&!color=#551a8b]:0.017094)[&label=100,!color=#551a8b]:0.016301)[&label=91,!color=#551a8b]:0.012059)[&label=34,!color=#9b30ff]:0.007748)[&label=39,!color=#9b30ff]:0.007872,(((((ANT_AT_WAIN_201611_003[&!color=#9b30ff]:0.02,ANT_AT_WAIN_201611_009[&!color=#9b30ff]:0.025091)[&label=25,!color=#9b30ff]:0.00599,ANT_AT_WAIN_201611_004[&!color=#9b30ff]:0.021043)[&label=99,!color=#9b30ff]:0.013847,((ANT_NR_WAIP_201809_K07[&!color=#551a8b]:0.001092,ANT_AT_RAKS_201611_001[&!color=#999999]:7.1E-4)[&label=100,!color=#9b30ff]:0.026337,ANT_NR_WAIS_202011_0J1[&!color=#551a8b]:0.028555)[&label=65,!color=#9b30ff]:0.010521)[&label=59,!color=#9b30ff]:0.007573,((ANT_NR_WAIP_201809_006[&!color=#551a8b]:7.32E-4,ANT_NR_WAIP_201809_K06[&!color=#551a8b]:0.001498)[&label=100,!color=#551a8b]:0.029026,((ANT_NR_WAIB_202011_0A6[&!color=#551a8b]:0.012658,ANT_NR_WAIN_202011_202[&!color=#551a8b]:0.012514)[&label=100,!color=#551a8b]:0.008641,ANT_NR_WAIB_202011_0J5[&!color=#551a8b]:0.020486)[&label=100,!color=#551a8b]:0.026726)[&label=74,!color=#551a8b]:0.010966)[&label=75,!color=#9b30ff]:0.007031,((ANT_AT_WAIN_201611_008[&!color=#9b30ff]:0.03545,ANT_AT_WAIS_201611_005[&!color=#9b30ff]:0.026908)[&label=72,!color=#9b30ff]:0.009518,((ANT_AT_WAIS_201611_003[&!color=#9b30ff]:0.030196,ANT_AT_WAIS_201611_006[&!color=#9b30ff]:0.02022)[&label=100,!color=#9b30ff]:0.012936,ANT_AT_WAIS_201611_007[&!color=#9b30ff]:0.027555)[&label=74,!color=#9b30ff]:0.008874)[&label=75,!color=#9b30ff]:0.007447)[&label=87,!color=#9b30ff]:0.010063)[&label=43,!color=#9b30ff]:0.006935)[&label=84,!color=#9b30ff]:0.008326,(((ANT_AT_WAIN_201611_002[&!color=#9b30ff]:0.026899,ANT_AT_WAIN_201611_005[&!color=#9b30ff]:0.019865)[&label=83,!color=#9b30ff]:0.013499,ANT_AT_WAIS_201611_009[&!color=#9b30ff]:0.032152)[&label=64,!color=#9b30ff]:0.013658,((ANT_AT_WAIS_201611_004[&!color=#9b30ff]:0.038696,((ANT_NR_WAIP_201809_003[&!color=#551a8b]:3.0E-6,ANT_NR_WAIP_201809_K03[&!color=#551a8b]:0.001079)[&label=100,!color=#551a8b]:0.026256,ANT_NR_WAIP_201809_004[&!color=#551a8b]:0.037202)[&label=99,!color=#551a8b]:0.007243)[&label=92,!color=#9b30ff]:0.013038,ANT_AT_WAIS_201611_010[&!color=#9b30ff]:0.023592)[&label=79,!color=#9b30ff]:0.006474)[&label=72,!color=#9b30ff]:0.007649)[&label=74,!color=#9b30ff]:0.018748,(ANT_AT_WAIS_201611_002[&!color=#9b30ff]:0.036224,(ANT_NR_WAIP_201809_002[&!color=#551a8b]:0.001539,ANT_NR_WAIP_201809_K02[&!color=#551a8b]:6.95E-4)[&label=100,!color=#551a8b]:0.035351)[&label=89,!color=#9b30ff]:0.018777)[&label=38,!color=#9b30ff]:0.006475,((ANT_AT_WAIN_201611_006[&!color=#9b30ff]:0.025018,ANT_AT_WAIS_201611_008[&!color=#9b30ff]:0.02679)[&label=99,!color=#9b30ff]:0.010317,ANT_AT_KAIK_201611_102[&!color=#ffd700]:0.025297)[&label=91,!color=#9b30ff]:0.010997)[&label=73,!color=#9b30ff]:0.01166,ANT_NR_WAIS_202011_0J3[&!color=#551a8b]:0.036107)[&label=75,!color=#9b30ff]:0.011589,ANT_AT_WAIN_201611_010[&!color=#9b30ff]:0.030943)[&label=97,!color=#9b30ff]:0.011282,(ANT_NR_WAIP_201809_001[&!color=#551a8b]:3.56E-4,ANT_NR_WAIP_201809_K01[&!color=#551a8b]:3.83E-4)[&label=100,!color=#551a8b]:0.036308)[&label=100,!color=#9b30ff]:0.088625)[&label=100,!rotate=true]:0.041595)[&label=100,!rotate=false,!color=#000000]:0.054863)[&label=100,!color=#00c5cd]:0.038665,(ANT_AT_CODR_201912_002[&!color=#00c5cd]:0.004432,((ANT_AT_CODR_201912_003[&!color=#00c5cd]:3.0E-6,ANT_AT_CODR_201912_004[&!color=#00c5cd]:3.44E-4)[&label=100,!color=#00c5cd]:0.008358,ANT_AT_CODR_201912_006[&!color=#00c5cd]:0.015639)[&label=100,!color=#00c5cd]:0.0083)[&label=100,!color=#00c5cd]:0.115459)[&label=100,!color=#00c5cd]:0.050518)[&label=98,!color=#00c5cd]:0.011993)[&label=100,!color=#00c5cd]:0.015274,ANT_AT_BOOM_202007_004[&!color=#00c5cd]:0.019192);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=5.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=553;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="Branch times";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=12;
+	set nodeLabels.fontStyle=1;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=12.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=3.0;
+	set scaleBar.scaleRange=0.06;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=1;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
