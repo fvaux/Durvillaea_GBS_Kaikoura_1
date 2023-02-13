@@ -1,6 +1,21 @@
 # kaikoura_d_antarctica_GBS
 Commands and input files for the phylogeographic analysis of southern bull kelp Durvillaea antarctica using genotyping-by-sequencing data. Used to analyse population genomic variation for Kaikoura and Rarangi. 
 
+# Sample details and supplementary methods
+Full sample details (Appendix A), supplementary methods, results, tables, and figures (Appendix B) available here.
+
+# Genotype and loci fasta files
+GBS files (loci consensus sequences, genotype files, phylogenetic alignments, trees, and all commands and files provided on GitHub) are available on DataDryad: 
+
+# Demultiplexed reads
+Demultiplexed forward and reverse DNA sequence reads for the southern bull-kelp sequenced in this study are openly available on the NCBI sequence read archive (SRA) under: PRJNA780921, https://www.ncbi.nlm.nih.gov/sra/PRJNA780921
+
+# Raw Illumina reads
+Available on request, and we're working to archive all southern bull kelp raw reads on NCBI in the near future.
+
+# Further information
+See this page: https://sites.google.com/view/evauxlution/data
+
 # Stacks
 Shell files with commands and parameter settings used for each STACKS run.
 
@@ -24,18 +39,3 @@ R files for running loci filtering (e.g. loci coverage depth outliers) and popul
 
 # Trees
 Shell files and commands for estimating maxmimum-likelihood (ML) and neighbour-joining (NJ) trees for both datasets, using IQtree and VCFkit respectively. Each folder includes an annotated tree file.
-
-# Sample details and supplementary methods
-Full sample details (Appendix A), supplementary methods, results, tables, and figures (Appendix B) available here.
-
-# Genotype and loci fasta files
-GBS files (loci consensus sequences, genotype files, phylogenetic alignments, trees, and all commands and files provided on GitHub) are available on DataDryad: 
-
-# Demultiplexed reads
-Demultiplexed forward and reverse DNA sequence reads for the southern bull-kelp sequenced in this study are openly available on the NCBI sequence read archive (SRA) under: PRJNA780921, https://www.ncbi.nlm.nih.gov/sra/PRJNA780921
-
-# Raw Illumina reads
-Available on request, and we're working to archive all southern bull kelp raw reads on NCBI in the near future.
-
-# Further information
-See this page: https://sites.google.com/view/evauxlution/data
