@@ -25,8 +25,11 @@ R files for running loci filtering (e.g. loci coverage depth outliers) and popul
 # Trees
 Shell files and commands for estimating maxmimum-likelihood (ML) and neighbour-joining (NJ) trees for both datasets, using IQtree and VCFkit respectively. Each folder includes an annotated tree file.
 
-# Sampling, and genotype and loci fasta files
-Full sample details (Appendix A), supplementary tables, and figures (Appendix B), GBS files (loci consensus sequences, genotype files, phylogenetic alignments, trees, and all commands and files provided on GitHub) are available on DataDryad: 
+# Sample details and supplementary methods
+Full sample details (Appendix A), supplementary methods, results, tables, and figures (Appendix B) available here.
+
+# Genotype and loci fasta files
+GBS files (loci consensus sequences, genotype files, phylogenetic alignments, trees, and all commands and files provided on GitHub) are available on DataDryad: 
 
 # Demultiplexed reads
 Demultiplexed forward and reverse DNA sequence reads for the southern bull-kelp sequenced in this study are openly available on the NCBI sequence read archive (SRA) under: PRJNA780921, https://www.ncbi.nlm.nih.gov/sra/PRJNA780921
