@@ -1,5 +1,5 @@
 # kaikoura_d_antarctica_GBS
-Commands and input files for the phylogeographic analysis of southern bull kelp Durvillaea antarctica using genotyping-by-sequencing data. Used for: 
+Commands and input files for the phylogeographic analysis of southern bull kelp Durvillaea antarctica using genotyping-by-sequencing data. Used to analyse population genomic variation for Kaikoura and Rarangi. 
 
 # Stacks
 Shell files with commands and parameter settings used for each STACKS run.
