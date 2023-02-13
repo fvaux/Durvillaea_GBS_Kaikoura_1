@@ -4,8 +4,8 @@ Commands and input files for the phylogeographic analysis of southern bull kelp 
 # Sample details and supplementary methods
 Full sample details (Appendix A), supplementary methods, results, tables, and figures (Appendix B) available here.
 
-# Genotype and loci fasta files
-GBS files (loci consensus sequences, genotype files, phylogenetic alignments, trees, and all commands and files provided on GitHub) are available on DataDryad: 
+# Genotype, loci fasta and tree files
+ GBS files (loci consensus sequences, genotype files, phylogenetic alignments, and tree files are available here on DataDryad: 
 
 # Demultiplexed reads
 Demultiplexed forward and reverse DNA sequence reads for the southern bull-kelp sequenced in this study are openly available on the NCBI sequence read archive (SRA) under: PRJNA780921, https://www.ncbi.nlm.nih.gov/sra/PRJNA780921
