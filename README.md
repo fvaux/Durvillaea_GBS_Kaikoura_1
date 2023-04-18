@@ -2,7 +2,8 @@
 Commands and input files for the phylogeographic analysis of southern bull kelp Durvillaea antarctica using genotyping-by-sequencing data. Used to analyse population genomic variation for Kaikoura and Rarangi. 
 
 # Sample details and supplementary methods
-Full sample details (Appendix A), supplementary methods, results, tables, and figures (Appendix B) available here.
+## For the Rarangi analysis:
+Full sample details (Supplementary A), supplementary methods, results, tables, and figures (Supplementary B) available here.
 
 # Genotype, loci fasta and tree files
 GBS files (loci consensus sequences, genotype files, phylogenetic alignments, and tree files are available here as 'Kaikoura-Rarangi-genotype-files.zip'.
