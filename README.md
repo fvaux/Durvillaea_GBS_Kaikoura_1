@@ -2,6 +2,8 @@
 Commands and input files for the phylogeographic analysis of southern bull kelp Durvillaea antarctica using genotyping-by-sequencing data. Used to analyse population genomic variation for Kaikoura and Rarangi. 
 
 # Associated publications
+Vaux F, Parvizi E, Duffy GA, Dutoit L, Craw D, Waters JM. First genomic snapshots of recolonising lineages following a devastating earthquake. (submitted)
+
 Vaux F, Fraser CI, Craw D, Read S, Waters JM. (2023). Integrating kelp genomic analyses and geological data to reveal ancient earthquake impacts. Journal of the Royal Society Interface 20, 20230105. https://doi.org/10.1098/rsif.2023.0105
 
 # Sample details and supplementary methods
