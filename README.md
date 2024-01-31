@@ -8,7 +8,7 @@ Vaux F, Fraser CI, Craw D, Read S, Waters JM. (2023). Integrating kelp genomic a
 
 # Sample details and supplementary methods
 ## For the Kaikoura analysis:
-TBC
+Full sample details are provided in the Kaikoura_Supplementary A_GBS_samples.xlsx file here, and supplementary tables and figures are provided as supplementary material hosted with the main text.
 
 ## For the Rarangi analysis:
 Full sample details (Supplementary A), supplementary methods, results, tables, and figures (Supplementary B) available here.
