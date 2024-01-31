@@ -7,13 +7,13 @@ Vaux F, Parvizi E, Duffy GA, Dutoit L, Craw D, Waters JM. (2024). First genomic 
 Vaux F, Fraser CI, Craw D, Read S, Waters JM. (2023). Integrating kelp genomic analyses and geological data to reveal ancient earthquake impacts. Journal of the Royal Society Interface 20, 20230105. https://doi.org/10.1098/rsif.2023.0105
 
 # Sample details and supplementary methods
-## For the Kaikoura analysis:
+## For the Kaikōura analysis:
 Full sample details are provided in the Kaikoura_Supplementary A_GBS_samples.xlsx file here, and supplementary tables and figures are provided as supplementary material hosted with the main text.
 
 ## For the Rarangi analysis:
 Full sample details (Supplementary A), supplementary methods, results, tables, and figures (Supplementary B) available here.
 
-# Connectivity analysis for the Kaikoura study
+# Connectivity analysis for the Kaikōura study
 Commented R files and log files for the R environment and Moana dataset are provided in the Kaikoura_dispersal_analysis folder here. Since the MetOcean Moana dataset is proprietary, we cannot provide the source data here. If users gain access to the Moana dataset, the R scripts should allow for the data to be full reproducible.
 
 # Genotype, loci fasta and tree files
